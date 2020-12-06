@@ -1,0 +1,117 @@
+body{
+    background-color:wheat;
+    align : center
+}
+h1{
+  margin: 0 auto;
+  margin-top: 1.8em;
+  font-size : 80px;
+  text-align:center;
+}
+h4 {
+  margin: 0 auto;
+  font-size : 30px;
+  text-align:center;
+}
+
+button{
+  width : 30px;
+  height: 25px;
+  background-color: black;
+  border-radius : 30%;
+  border : 0.5px solid;
+  opacity: 80%;
+  
+}
+
+input{
+  width : 200px;
+  height: 20px;
+  background-color:white;
+  border : 0px;
+}
+.js-form{
+
+  margin: 0 auto;
+  text-align:center;
+
+}
+
+.js-toDoForm{
+  margin: 0 auto;
+  font-size : 25px;
+  margin-top: 1.7em;
+  text-align:center;
+}
+
+div {
+    display: flex;
+}
+
+.form{
+    display: none
+}
+  
+.greetings{
+  display: none
+}
+  
+.show{
+  display: block
+}
+
+.toDos{
+  width : 50%;
+  margin: 0 auto;
+  font-size : 30px;
+ 
+  margin-top:4%;
+  margin-left: 35%;
+  
+}
+
+.js-weather{
+  position: absolute;
+  right: 6px; 
+  font-size: 20px;
+  color : rgb(71, 70, 70);
+}
+
+ 
+
+.pending-toDo, .finished-toDo{
+    display: inline-block;
+    margin-right: 20%;
+    color : black;
+    opacity: 0.87;
+    
+  }
+ul{
+  margin:0;
+  padding:0;
+}
+li{
+  font-size : 20px;
+  list-style:none;
+  margin-left:0px;
+}
+
+  @keyframes fadeIn{
+    from {
+      opacity :0
+    }
+    to{
+      opacity:0.5
+    }
+  }
+  
+  .bgImage{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    z-index:-1;
+    opacity: 0.5;
+    animation : fadeIn 1s linear
+  }

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wecome!</title>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+<body>
+
+      <span class='js-weather'></span>
+      <div class="js-clock"> 
+        <h1>00:00</h1>
+      </div>
+
+
+      <form class="js-form form">
+        <h4>Hi! You are first here! </h4>
+        <input type="text" placeholder="what's your name?"/>
+      </form>
+      <h4 class="js-greetings  greetings"></h4>
+
+ 
+      <form class="js-toDoForm">
+        <h4> To do lists :   </h4>
+        <input type='text' class="toDoItem" placeholder="Write a to do" ></input>
+      </form>
+      
+      <div class="toDos">
+        <div class='pending-toDo'> 
+            <h4 > Pending ...🙉 </h4>
+            <ul class='js-pending'> </ul>
+        </div>
+       
+        <div class='finished-toDo'>
+            <h4> Finished !🏅 </h4>
+            <ul class='js-finished'> </ul>
+        </div>
+      </div>
+
+
+    
+  
+      <script src="clock.js"></script>
+      <script src='greeting.js'></script>
+      <script src='todo.js'></script>
+      <script src='bg.js'></script>
+      <script src='weather.js'></script>
+</body>
+</html>
